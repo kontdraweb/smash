@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="header">
+        <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hakkımda</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+        <h3 class="text-muted">Parçala Yönet</h3>
+    </div>
+ 
+    <div class="jumbotron">
+        <h1>Parçala yönet ile tasarım.</h1>
+        <p class="lead"> Prototurk için hazırladığım bu ders umarım yararlı olmuştur.</p>
+        <p><a class="btn btn-lg btn-success" href="http://www.prototurk.com" role="button">Prototurk.com</a></p>
+    </div>
+ 
+    <div class="footer">
+        <p>&copy; Company 2013 - Ferdi ÜNAL</p>
+    </div>
+ 
+</div> <!-- /container -->
