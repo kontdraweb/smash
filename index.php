@@ -14,15 +14,16 @@
 <body>
 <?php
 /* GET['do'] pages klasöründeki dosya ile aynı olmalıdır. */
-$do = $_GET['do'];
-$page = 'pages/'.$do.'.php';
-if(!$do){
-    header('Location: index.php?do=index');
+$get_page = $_GET['page'];
+$folder = $_GET['folder'];
+$page = 'pages/'.$folder.''.$get_page.'.php';
+if(!$page || !$folder){
+    header('Location: index.php?folder=home&page=index');
 }else{
     if(is_file($page)){
         require_once($page);
     }else{
-        require_once('pages/index.php');
+        require_once('pages/home/index.php');
     }
 }
 ?>
